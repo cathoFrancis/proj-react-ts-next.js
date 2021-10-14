@@ -1,12 +1,13 @@
-import Image from 'next/image';
 import React from 'react';
-import { Htag } from '../components';
+import { Button, Htag } from '../components';
 
 
 export default function Home(): JSX.Element {
   return (
-    <div>
+    <>
       <Htag tag='h2'>Text</Htag>
-    </div>
+      <Button appearance='primary'>Кнопка</Button>
+      <Button appearance='ghost'>Кнопка</Button>
+    </>
   );
 }

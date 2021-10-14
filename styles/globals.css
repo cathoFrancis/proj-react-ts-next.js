@@ -3,9 +3,9 @@ body {
 	margin: 0;
 	padding: 0;
 	color: var(--black);
-	background: #f5f6f8 ;
+	background: #f5f6f8;
 
-	font-family: 'Noto Sans Display', sans-serif;
+	font-family: "Noto Sans Display", sans-serif;
 }
 
 a {
@@ -18,12 +18,14 @@ a {
 	box-sizing: border-box;
 }
 
-:root{
-	--black: #3B434E;
+:root {
+	--black: #3b434e;
+	--grey-light: #ebebeb;
 	--white: #fff;
-	--primary: #7653FC;
-	--red: #FC836D;
-	--green:#1DC37E;
-	--green-light: #C8F8E4;
-	--font-family: 'Noto Sans Display', sans-serif;
+	--primary: #7653fc;
+	--primary-hover: #3b0cf7;
+	--red: #fc836d;
+	--green: #1dc37e;
+	--green-light: #c8f8e4;
+	--font-family: "Noto Sans Display", sans-serif;
 }
